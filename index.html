@@ -4,16 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <title>Knife Engraving Customiser</title>
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 <!-- faster Google-fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lobster&family=Roboto&display=swap" rel="stylesheet">
 
 <style>
-:root{--accent:#111;--bg:#fafafa;--border:#ddd;--pad:1rem;--radius:.5rem;}
+:root{--accent:#d00024;--bg:#fafafa;--border:#ddd;--pad:1rem;--radius:.5rem;}
 *{box-sizing:border-box;margin:0;}
 body{font-family:Roboto,Arial,Helvetica,sans-serif;background:var(--bg);color:#222;}
-h1{text-align:center;margin:.75rem 0 1rem;}
+h1{text-align:center;margin:.1.75rem 0 1rem;}
+h3{text-align:center;}
 .container{max-width:1200px;margin:auto;padding:var(--pad);display:flex;flex-direction:column;gap:var(--pad);}
 .section{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:var(--pad);}
 #product-picker{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.75rem;}
@@ -32,6 +34,7 @@ button[disabled]{opacity:.4;cursor:not-allowed;}
 </head>
 <body>
 <h1>Knife Engraving Customiser</h1>
+<h3>by Kool</h3>
 <div class="container">
 
   <!-- 1. KNIFE -->
@@ -60,7 +63,7 @@ button[disabled]{opacity:.4;cursor:not-allowed;}
           <option value="Arial">Arial</option>
         </select>
       </div>
-      <div><label for="fontSize">Size:</label><input type="number" id="fontSize" value="150" min="10" max="300" style="width:5rem;"></div>
+      <div><label for="fontSize">Size:</label><input type="number" id="fontSize" value="150" min="10" max="800" style="width:5rem;"></div>
     </div>
   </div>
 
